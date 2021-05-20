@@ -1,7 +1,17 @@
 $(document).ready(function() {
   window.possible_words = [
     ["Simon Petru", true],
-    ["Wrong name", false],
+    ["Andrei", true],
+    ["Iacob fiul lui Zebedei", true],
+    ["Ioan", true],
+    ["Filip", true],
+    ["Bartolomeu (Natanael)", true],
+    ["Toma", true],
+    ["Matei", true],
+    ["Iacob fiul lui Alfeu", true],
+    ["Iuda fiul lui Iacov", true],
+    ["Simon Zelotul", true],
+    ["Iuda Iscarioteanul", true]
   ];
   window.game_is_finished = false;
   window.is_apostle = true;
