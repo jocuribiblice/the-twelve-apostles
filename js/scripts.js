@@ -49,16 +49,14 @@ $(document).ready(function() {
 
     $("a.btn.btn-answer").on("click", function(evt) {
       evt.preventDefault();
-      var answer = $(this).text();
-      if (answer == window.word.toUpperCase()) {
+      var selected_is_apostle = $(this).hasClass("btn-yes");
+      if (selected_is_apostle === window.is_apostle) {
         $(this).removeClass("btn-warning").addClass("btn-success");
         win();
       } else {
         $(this).removeClass("btn-warning").addClass("btn-danger");
       }
     });
-
-    $("p#status").text(window.hint);
   }
 
   $("a#app-info-details").on("click", function(evt) {
