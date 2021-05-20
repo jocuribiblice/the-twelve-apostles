@@ -11,7 +11,20 @@ $(document).ready(function() {
     ["Iacob fiul lui Alfeu", true],
     ["Iuda fiul lui Iacov", true],
     ["Simon Zelotul", true],
-    ["Iuda Iscarioteanul", true]
+    ["Iuda Iscarioteanul", true],
+    ["Adam", false],
+    ["Cain", false],
+    ["Eutih", false],
+    ["Noe", false],
+    ["David", false],
+    ["Elisei", false],
+    ["Solomon", false],
+    ["Samson", false],
+    ["Goliat", false],
+    ["Pavel", false],
+    ["Caiafa", false],
+    ["Irod", false],
+    ["Timotei", false],
   ];
   window.game_is_finished = false;
   window.is_apostle = true;
